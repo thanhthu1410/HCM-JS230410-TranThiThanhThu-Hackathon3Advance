@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.containerAll{
+  font-family: sans-serif;
+  width: 100%;
+  min-height: 300px;
+  margin-top: 40px;
+ 
+}
+.HeaderContainer{
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  width: 80%;
+  height: 50px;
+}
+.HeaderContainer input{
+  width: 200px;
+  padding: 6px;
+  margin: auto 20px;
+}
+
+.table-container,tr,th,td{
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 10px;
+}
+table{
+  width: 80%;
+}
+.container-body{
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.active button{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+}
+.active{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.updateButton{
+  background-color: green;
+}
+.deleteButton{
+  background-color: rgb(212, 43, 43);
+}
+
+.saveButton{
+  background-color: green;
+}
+
+.select{
+  padding: 7px;
+  width: 100px;
+  
+}
+.buttonAdd{
+  padding: 7px;
+  width: 80px;
+  margin-right: 20px;
+  background-color: rgb(37, 112, 233);
+  color:#fff;
+  border: none;
+  border-radius: 8px;
+}
